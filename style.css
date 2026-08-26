@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #1C1A1E;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 330px;
+}
+
+.Calculadora {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
+    background-color: #2D2A37;
+    box-sizing: border-box;
+    border-radius: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 10px;
+}
+
+.btn {
+    background-color: #2D2A37;
+    height: 65px;
+    width: 65px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+.display {
+    height: 70px;
+    font-size: 30px;
+    text-align: right;
+    border-radius: 50px;
+    margin-bottom: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #2D2A37;
+    border: none;
+}
+
+.btn-operacao {
+    background-color: #6f3bc4;
+}
+
+.btn-resultado {
+    background-color: #714daa;
+}
+
+.btn-deletar-tudo {
+    color: #6f3bc4;
+}
